@@ -1,0 +1,18 @@
+name: OsAntiSeedCracker
+version: 1.1
+main: furkan.studio.osantiseedcracker.OsAntiSeedCracker
+api-version: 1.13
+authors: [Gadse, OnwexryS]
+description: Removes the hashed seed packet send to player
+depend: ["ProtocolLib"]
+
+commands:
+  osantiseedcracker:
+    permission: "osantiseedcracker.admin"
+    usage: /antiseedcracker [reload]
+    aliases: [ oasc ]
+    description: Version info and config reload command of OsAntiSeedCracker
+
+permissions:
+  osantiseedcracker.admin:
+    default: op
